@@ -1,3 +1,16 @@
+/* 
+in this project we did a deploy to our code . 
+first : npm run build . 
+when you have the buid directory  
+you can upload the code to github 
+then open site :https://docs.netlify.com
+and find your git repo by clicking the choose specific folder.
+push on the build button and wait for finish 
+then open the link 
+- when you are doing other changes in the app, the deploy 
+will happen automaticly after you push the code to git
+  */
+
 import React, { useState } from 'react';
 import Counter from './Counter'
 import CounterHooks from './CounterHooks'
@@ -25,7 +38,7 @@ function App() {
       return prevTheme === "red" ? "blue": "red"
   })
     setColor(prevColor => {
-      return prevColor === "yellow"? "black" :"yellow"
+      return prevColor === "brown"? "cyan" :"brown"
     })
   }
   return (
